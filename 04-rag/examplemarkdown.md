@@ -1,0 +1,35 @@
+# Step-by-Step Guide to Using a Dishwasher
+
+## 1. Load the Dishwasher Properly:
+- **Scrape off excess food:** Before placing dishes in the dishwasher, scrape off large food particles to prevent clogging the drainage system.
+- **Top rack:** Place glasses, cups, and smaller items on the top rack.
+- **Bottom rack:** Place plates, bowls, pots, and pans on the bottom rack. Ensure they are not blocking the spray arms.
+
+## 2. Arrange Utensils Correctly:
+- **Utensil basket:** Place forks, spoons, and knives with handles facing upwards to ensure thorough cleaning.
+- **Avoid overcrowding:** Make sure utensils are not too close together to allow water to circulate freely.
+
+## 3. Pre-rinse if Necessary:
+- **Modern dishwashers:** Typically, pre-rinsing is not required. However, for heavily soiled dishes, a quick rinse can help.
+
+## 4. Select the Right Dishwasher Cycle and Options:
+- **Normal cycle:** Suitable for everyday dishes.
+- **Eco-friendly cycle:** Uses less water and energy.
+- **Heavy-duty cycle:** For pots, pans, and heavily soiled dishes.
+- **Quick wash:** For lightly soiled dishes.
+- **Additional options:** Use sanitize, heated dry, or delay start as needed.
+
+## 5. Use the Correct Dishwasher Detergent:
+- **Dishwasher-specific detergent:** Use detergents designed for dishwashers. Consider water hardness when selecting a detergent.
+
+## 6. Start the Dishwasher and Maintain:
+- **Check settings:** Ensure you’ve selected the correct cycle and options.
+- **Regular maintenance:** Clean the filter and spray arms regularly to maintain efficiency.
+
+## 7. Unload the Dishwasher Properly:
+- **Bottom rack first:** This prevents water from the top rack from dripping onto the dishes below.
+- **Check for cleanliness:** Ensure all items are clean and dry before putting them away.
+
+For more detailed instructions, you can refer to the specific manual for your dishwasher model. If you need a manual, websites like ManualsLib and HomeGearGeek offer a variety of user guides and manuals.
+
+If you have any specific questions about your dishwasher, feel free to ask!
