@@ -1,0 +1,1932 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<eos>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<unk>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<unk>": 0,
+      "<pad>": 1,
+      "<eos>": 2,
+      ",": 3,
+      "-": 4,
+      ".": 5,
+      ":": 6,
+      "?": 7,
+      "A": 8,
+      "C": 9,
+      "D": 10,
+      "E": 11,
+      "F": 12,
+      "H": 13,
+      "I": 14,
+      "K": 15,
+      "L": 16,
+      "M": 17,
+      "N": 18,
+      "P": 19,
+      "S": 20,
+      "T": 21,
+      "U": 22,
+      "W": 23,
+      "Y": 24,
+      "a": 25,
+      "c": 26,
+      "d": 27,
+      "e": 28,
+      "f": 29,
+      "g": 30,
+      "h": 31,
+      "i": 32,
+      "k": 33,
+      "l": 34,
+      "m": 35,
+      "n": 36,
+      "o": 37,
+      "p": 38,
+      "q": 39,
+      "r": 40,
+      "s": 41,
+      "t": 42,
+      "u": 43,
+      "v": 44,
+      "w": 45,
+      "y": 46,
+      "z": 47,
+      "re": 48,
+      "en": 49,
+      "at": 50,
+      "an": 51,
+      "or": 52,
+      "ent": 53,
+      "al": 54,
+      "he": 55,
+      "es": 56,
+      "in": 57,
+      "ati": 58,
+      "ic": 59,
+      "and": 60,
+      "atient": 61,
+      "it": 62,
+      "on": 63,
+      "are": 64,
+      "ct": 65,
+      "de": 66,
+      "ed": 67,
+      "er": 68,
+      "ll": 69,
+      "oct": 70,
+      "st": 71,
+      "octor": 72,
+      "patient": 73,
+      "to": 74,
+      "the": 75,
+      "Doctor": 76,
+      "Patient": 77,
+      "ms": 78,
+      "ment": 79,
+      "os": 80,
+      "su": 81,
+      "ar": 82,
+      "cy": 83,
+      "che": 84,
+      "care": 85,
+      "di": 86,
+      "lin": 87,
+      "ou": 88,
+      "pr": 89,
+      "sy": 90,
+      "ses": 91,
+      "th": 92,
+      "ts": 93,
+      "vi": 94,
+      "reat": 95,
+      "als": 96,
+      "ici": 97,
+      "ical": 98,
+      "ad": 99,
+      "af": 100,
+      "ak": 101,
+      "co": 102,
+      "ew": 103,
+      "for": 104,
+      "fici": 105,
+      "hos": 106,
+      "ig": 107,
+      "is": 108,
+      "iv": 109,
+      "ion": 110,
+      "ill": 111,
+      "le": 112,
+      "me": 113,
+      "of": 114,
+      "ow": 115,
+      "pit": 116,
+      "treat": 117,
+      "un": 118,
+      "ve": 119,
+      "revi": 120,
+      "ency": 121,
+      "alth": 122,
+      "ess": 123,
+      "linical": 124,
+      "hospit": 125,
+      "treatment": 126,
+      "review": 127,
+      "He": 128,
+      "ag": 129,
+      "ave": 130,
+      "can": 131,
+      "cis": 132,
+      "clinical": 133,
+      "ds": 134,
+      "du": 135,
+      "doctor": 136,
+      "ef": 137,
+      "el": 138,
+      "et": 139,
+      "ell": 140,
+      "ems": 141,
+      "fe": 142,
+      "ge": 143,
+      "have": 144,
+      "ly": 145,
+      "lan": 146,
+      "lts": 147,
+      "mp": 148,
+      "med": 149,
+      "mak": 150,
+      "oll": 151,
+      "po": 152,
+      "plan": 153,
+      "rses": 154,
+      "sche": 155,
+      "tes": 156,
+      "tment": 157,
+      "urses": 158,
+      "ver": 159,
+      "will": 160,
+      "you": 161,
+      "resu": 162,
+      "ensu": 163,
+      "infor": 164,
+      "ation": 165,
+      "ity": 166,
+      "dep": 167,
+      "decis": 168,
+      "stems": 169,
+      "patients": 170,
+      "toms": 171,
+      "diag": 172,
+      "pro": 173,
+      "symp": 174,
+      "systems": 175,
+      "adm": 176,
+      "ficiency": 177,
+      "althcare": 178,
+      "hospitals": 179,
+      "Healthcare": 180,
+      "efficiency": 181,
+      "ollow": 182,
+      "schedu": 183,
+      "tests": 184,
+      "tments": 185,
+      "results": 186,
+      "ensure": 187,
+      "decision": 188,
+      "diagn": 189,
+      "symptoms": 190,
+      "Ar": 191,
+      "Clinical": 192,
+      "Dig": 193,
+      "Ele": 194,
+      "Follow": 195,
+      "HS": 196,
+      "How": 197,
+      "It": 198,
+      "Let": 199,
+      "Med": 200,
+      "Nurses": 201,
+      "NHS": 202,
+      "Th": 203,
+      "The": 204,
+      "Tes": 205,
+      "UK": 206,
+      "We": 207,
+      "You": 208,
+      "ac": 209,
+      "ap": 210,
+      "as": 211,
+      "ams": 212,
+      "acy": 213,
+      "ache": 214,
+      "ce": 215,
+      "ch": 216,
+      "ck": 217,
+      "cu": 218,
+      "cor": 219,
+      "con": 220,
+      "creat": 221,
+      "cle": 222,
+      "dat": 223,
+      "em": 224,
+      "eams": 225,
+      "ecu": 226,
+      "fer": 227,
+      "follow": 228,
+      "gh": 229,
+      "gu": 230,
+      "gency": 231,
+      "hig": 232,
+      "im": 233,
+      "ide": 234,
+      "ist": 235,
+      "ifici": 236,
+      "lp": 237,
+      "lon": 238,
+      "led": 239,
+      "lici": 240,
+      "liv": 241,
+      "mm": 242,
+      "mu": 243,
+      "mon": 244,
+      "mation": 245,
+      "ness": 246,
+      "nurses": 247,
+      "ore": 248,
+      "ost": 249,
+      "ome": 250,
+      "pp": 251,
+      "qu": 252,
+      "rs": 253,
+      "ron": 254,
+      "ros": 255,
+      "rou": 256,
+      "rals": 257,
+      "riv": 258,
+      "run": 259,
+      "saf": 260,
+      "scan": 261,
+      "sch": 262,
+      "secu": 263,
+      "some": 264,
+      "tin": 265,
+      "ted": 266,
+      "ter": 267,
+      "tak": 268,
+      "tell": 269,
+      "teams": 270,
+      "tifici": 271,
+      "up": 272,
+      "uity": 273,
+      "wor": 274,
+      "wit": 275,
+      "wel": 276,
+      "well": 277,
+      "zz": 278,
+      "reco": 279,
+      "rely": 280,
+      "recor": 281,
+      "refer": 282,
+      "ends": 283,
+      "ence": 284,
+      "ate": 285,
+      "ank": 286,
+      "ort": 287,
+      "orde": 288,
+      "ality": 289,
+      "head": 290,
+      "health": 291,
+      "help": 292,
+      "ing": 293,
+      "iness": 294,
+      "intments": 295,
+      "inist": 296,
+      "intell": 297,
+      "ication": 298,
+      "icate": 299,
+      "itor": 300,
+      "ital": 301,
+      "itted": 302,
+      "ctron": 303,
+      "deliv": 304,
+      "ergency": 305,
+      "staf": 306,
+      "store": 307,
+      "toge": 308,
+      "ther": 309,
+      "Doctors": 310,
+      "Patients": 311,
+      "osis": 312,
+      "supp": 313,
+      "arge": 314,
+      "arly": 315,
+      "artments": 316,
+      "arriv": 317,
+      "check": 318,
+      "disch": 319,
+      "dizz": 320,
+      "lines": 321,
+      "priv": 322,
+      "prof": 323,
+      "sesses": 324,
+      "throu": 325,
+      "vide": 326,
+      "after": 327,
+      "come": 328,
+      "comm": 329,
+      "igence": 330,
+      "ionals": 331,
+      "illness": 332,
+      "unwell": 333,
+      "unicate": 334,
+      "essionals": 335,
+      "hospital": 336,
+      "reviewed": 337,
+      "ety": 338,
+      "feel": 339,
+      "fever": 340,
+      "medication": 341,
+      "make": 342,
+      "making": 343,
+      "polici": 344,
+      "pointments": 345,
+      "plans": 346,
+      "your": 347,
+      "informed": 348,
+      "information": 349,
+      "depends": 350,
+      "departments": 351,
+      "prove": 352,
+      "provide": 353,
+      "administ": 354,
+      "admitted": 355,
+      "schedule": 356,
+      "scheduled": 357,
+      "decisions": 358,
+      "diagnost": 359,
+      "diagnosis": 360,
+      "Artifici": 361,
+      "Digital": 362,
+      "Electron": 363,
+      "Medical": 364,
+      "Thank": 365,
+      "Test": 366,
+      "acros": 367,
+      "appointments": 368,
+      "assesses": 369,
+      "contin": 370,
+      "created": 371,
+      "clearly": 372,
+      "data": 373,
+      "emergency": 374,
+      "guide": 375,
+      "high": 376,
+      "improve": 377,
+      "long": 378,
+      "must": 379,
+      "monitor": 380,
+      "quality": 381,
+      "safety": 382,
+      "securely": 383,
+      "take": 384,
+      "work": 385,
+      "with": 386,
+      "welcome": 387,
+      "recover": 388,
+      "records": 389,
+      "referrals": 390,
+      "orders": 391,
+      "headache": 392,
+      "intelligence": 393,
+      "deliver": 394,
+      "staff": 395,
+      "together": 396,
+      "support": 397,
+      "arrives": 398,
+      "discharge": 399,
+      "dizziness": 400,
+      "privacy": 401,
+      "professionals": 402,
+      "through": 403,
+      "communicate": 404,
+      "medications": 405,
+      "policies": 406,
+      "administer": 407,
+      "diagnostic": 408,
+      "Artificial": 409,
+      "Electronic": 410,
+      "across": 411,
+      "continuity": 412,
+      "guidelines": 413
+    },
+    "merges": [
+      [
+        "r",
+        "e"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "at",
+        "i"
+      ],
+      [
+        "i",
+        "c"
+      ],
+      [
+        "an",
+        "d"
+      ],
+      [
+        "ati",
+        "ent"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "a",
+        "re"
+      ],
+      [
+        "c",
+        "t"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "o",
+        "ct"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "oct",
+        "or"
+      ],
+      [
+        "p",
+        "atient"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "t",
+        "he"
+      ],
+      [
+        "D",
+        "octor"
+      ],
+      [
+        "P",
+        "atient"
+      ],
+      [
+        "m",
+        "s"
+      ],
+      [
+        "m",
+        "ent"
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "s",
+        "u"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "c",
+        "y"
+      ],
+      [
+        "c",
+        "he"
+      ],
+      [
+        "c",
+        "are"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "l",
+        "in"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "p",
+        "r"
+      ],
+      [
+        "s",
+        "y"
+      ],
+      [
+        "s",
+        "es"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "v",
+        "i"
+      ],
+      [
+        "re",
+        "at"
+      ],
+      [
+        "al",
+        "s"
+      ],
+      [
+        "ic",
+        "i"
+      ],
+      [
+        "ic",
+        "al"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "a",
+        "f"
+      ],
+      [
+        "a",
+        "k"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "e",
+        "w"
+      ],
+      [
+        "f",
+        "or"
+      ],
+      [
+        "f",
+        "ici"
+      ],
+      [
+        "h",
+        "os"
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "i",
+        "v"
+      ],
+      [
+        "i",
+        "on"
+      ],
+      [
+        "i",
+        "ll"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "p",
+        "it"
+      ],
+      [
+        "t",
+        "reat"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "re",
+        "vi"
+      ],
+      [
+        "en",
+        "cy"
+      ],
+      [
+        "al",
+        "th"
+      ],
+      [
+        "es",
+        "s"
+      ],
+      [
+        "lin",
+        "ical"
+      ],
+      [
+        "hos",
+        "pit"
+      ],
+      [
+        "treat",
+        "ment"
+      ],
+      [
+        "revi",
+        "ew"
+      ],
+      [
+        "H",
+        "e"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "a",
+        "ve"
+      ],
+      [
+        "c",
+        "an"
+      ],
+      [
+        "c",
+        "is"
+      ],
+      [
+        "c",
+        "linical"
+      ],
+      [
+        "d",
+        "s"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "d",
+        "octor"
+      ],
+      [
+        "e",
+        "f"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "e",
+        "ll"
+      ],
+      [
+        "e",
+        "ms"
+      ],
+      [
+        "f",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "h",
+        "ave"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "l",
+        "an"
+      ],
+      [
+        "l",
+        "ts"
+      ],
+      [
+        "m",
+        "p"
+      ],
+      [
+        "m",
+        "ed"
+      ],
+      [
+        "m",
+        "ak"
+      ],
+      [
+        "o",
+        "ll"
+      ],
+      [
+        "p",
+        "o"
+      ],
+      [
+        "p",
+        "lan"
+      ],
+      [
+        "r",
+        "ses"
+      ],
+      [
+        "s",
+        "che"
+      ],
+      [
+        "t",
+        "es"
+      ],
+      [
+        "t",
+        "ment"
+      ],
+      [
+        "u",
+        "rses"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "w",
+        "ill"
+      ],
+      [
+        "y",
+        "ou"
+      ],
+      [
+        "re",
+        "su"
+      ],
+      [
+        "en",
+        "su"
+      ],
+      [
+        "in",
+        "for"
+      ],
+      [
+        "ati",
+        "on"
+      ],
+      [
+        "it",
+        "y"
+      ],
+      [
+        "de",
+        "p"
+      ],
+      [
+        "de",
+        "cis"
+      ],
+      [
+        "st",
+        "ems"
+      ],
+      [
+        "patient",
+        "s"
+      ],
+      [
+        "to",
+        "ms"
+      ],
+      [
+        "di",
+        "ag"
+      ],
+      [
+        "pr",
+        "o"
+      ],
+      [
+        "sy",
+        "mp"
+      ],
+      [
+        "sy",
+        "stems"
+      ],
+      [
+        "ad",
+        "m"
+      ],
+      [
+        "fici",
+        "ency"
+      ],
+      [
+        "alth",
+        "care"
+      ],
+      [
+        "hospit",
+        "als"
+      ],
+      [
+        "He",
+        "althcare"
+      ],
+      [
+        "ef",
+        "ficiency"
+      ],
+      [
+        "oll",
+        "ow"
+      ],
+      [
+        "sche",
+        "du"
+      ],
+      [
+        "tes",
+        "ts"
+      ],
+      [
+        "tment",
+        "s"
+      ],
+      [
+        "resu",
+        "lts"
+      ],
+      [
+        "ensu",
+        "re"
+      ],
+      [
+        "decis",
+        "ion"
+      ],
+      [
+        "diag",
+        "n"
+      ],
+      [
+        "symp",
+        "toms"
+      ],
+      [
+        "A",
+        "r"
+      ],
+      [
+        "C",
+        "linical"
+      ],
+      [
+        "D",
+        "ig"
+      ],
+      [
+        "E",
+        "le"
+      ],
+      [
+        "F",
+        "ollow"
+      ],
+      [
+        "H",
+        "S"
+      ],
+      [
+        "H",
+        "ow"
+      ],
+      [
+        "I",
+        "t"
+      ],
+      [
+        "L",
+        "et"
+      ],
+      [
+        "M",
+        "ed"
+      ],
+      [
+        "N",
+        "urses"
+      ],
+      [
+        "N",
+        "HS"
+      ],
+      [
+        "T",
+        "h"
+      ],
+      [
+        "T",
+        "he"
+      ],
+      [
+        "T",
+        "es"
+      ],
+      [
+        "U",
+        "K"
+      ],
+      [
+        "W",
+        "e"
+      ],
+      [
+        "Y",
+        "ou"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "a",
+        "ms"
+      ],
+      [
+        "a",
+        "cy"
+      ],
+      [
+        "a",
+        "che"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "c",
+        "or"
+      ],
+      [
+        "c",
+        "on"
+      ],
+      [
+        "c",
+        "reat"
+      ],
+      [
+        "c",
+        "le"
+      ],
+      [
+        "d",
+        "at"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "e",
+        "ams"
+      ],
+      [
+        "e",
+        "cu"
+      ],
+      [
+        "f",
+        "er"
+      ],
+      [
+        "f",
+        "ollow"
+      ],
+      [
+        "g",
+        "h"
+      ],
+      [
+        "g",
+        "u"
+      ],
+      [
+        "g",
+        "ency"
+      ],
+      [
+        "h",
+        "ig"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "i",
+        "de"
+      ],
+      [
+        "i",
+        "st"
+      ],
+      [
+        "i",
+        "fici"
+      ],
+      [
+        "l",
+        "p"
+      ],
+      [
+        "l",
+        "on"
+      ],
+      [
+        "l",
+        "ed"
+      ],
+      [
+        "l",
+        "ici"
+      ],
+      [
+        "l",
+        "iv"
+      ],
+      [
+        "m",
+        "m"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "m",
+        "on"
+      ],
+      [
+        "m",
+        "ation"
+      ],
+      [
+        "n",
+        "ess"
+      ],
+      [
+        "n",
+        "urses"
+      ],
+      [
+        "o",
+        "re"
+      ],
+      [
+        "o",
+        "st"
+      ],
+      [
+        "o",
+        "me"
+      ],
+      [
+        "p",
+        "p"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "r",
+        "s"
+      ],
+      [
+        "r",
+        "on"
+      ],
+      [
+        "r",
+        "os"
+      ],
+      [
+        "r",
+        "ou"
+      ],
+      [
+        "r",
+        "als"
+      ],
+      [
+        "r",
+        "iv"
+      ],
+      [
+        "r",
+        "un"
+      ],
+      [
+        "s",
+        "af"
+      ],
+      [
+        "s",
+        "can"
+      ],
+      [
+        "s",
+        "ch"
+      ],
+      [
+        "s",
+        "ecu"
+      ],
+      [
+        "s",
+        "ome"
+      ],
+      [
+        "t",
+        "in"
+      ],
+      [
+        "t",
+        "ed"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "t",
+        "ak"
+      ],
+      [
+        "t",
+        "ell"
+      ],
+      [
+        "t",
+        "eams"
+      ],
+      [
+        "t",
+        "ifici"
+      ],
+      [
+        "u",
+        "p"
+      ],
+      [
+        "u",
+        "ity"
+      ],
+      [
+        "w",
+        "or"
+      ],
+      [
+        "w",
+        "it"
+      ],
+      [
+        "w",
+        "el"
+      ],
+      [
+        "w",
+        "ell"
+      ],
+      [
+        "z",
+        "z"
+      ],
+      [
+        "re",
+        "co"
+      ],
+      [
+        "re",
+        "ly"
+      ],
+      [
+        "re",
+        "cor"
+      ],
+      [
+        "re",
+        "fer"
+      ],
+      [
+        "en",
+        "ds"
+      ],
+      [
+        "en",
+        "ce"
+      ],
+      [
+        "at",
+        "e"
+      ],
+      [
+        "an",
+        "k"
+      ],
+      [
+        "or",
+        "t"
+      ],
+      [
+        "or",
+        "de"
+      ],
+      [
+        "al",
+        "ity"
+      ],
+      [
+        "he",
+        "ad"
+      ],
+      [
+        "he",
+        "alth"
+      ],
+      [
+        "he",
+        "lp"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "in",
+        "ess"
+      ],
+      [
+        "in",
+        "tments"
+      ],
+      [
+        "in",
+        "ist"
+      ],
+      [
+        "in",
+        "tell"
+      ],
+      [
+        "ic",
+        "ation"
+      ],
+      [
+        "ic",
+        "ate"
+      ],
+      [
+        "it",
+        "or"
+      ],
+      [
+        "it",
+        "al"
+      ],
+      [
+        "it",
+        "ted"
+      ],
+      [
+        "ct",
+        "ron"
+      ],
+      [
+        "de",
+        "liv"
+      ],
+      [
+        "er",
+        "gency"
+      ],
+      [
+        "st",
+        "af"
+      ],
+      [
+        "st",
+        "ore"
+      ],
+      [
+        "to",
+        "ge"
+      ],
+      [
+        "the",
+        "r"
+      ],
+      [
+        "Doctor",
+        "s"
+      ],
+      [
+        "Patient",
+        "s"
+      ],
+      [
+        "os",
+        "is"
+      ],
+      [
+        "su",
+        "pp"
+      ],
+      [
+        "ar",
+        "ge"
+      ],
+      [
+        "ar",
+        "ly"
+      ],
+      [
+        "ar",
+        "tments"
+      ],
+      [
+        "ar",
+        "riv"
+      ],
+      [
+        "che",
+        "ck"
+      ],
+      [
+        "di",
+        "sch"
+      ],
+      [
+        "di",
+        "zz"
+      ],
+      [
+        "lin",
+        "es"
+      ],
+      [
+        "pr",
+        "iv"
+      ],
+      [
+        "pr",
+        "of"
+      ],
+      [
+        "ses",
+        "ses"
+      ],
+      [
+        "th",
+        "rou"
+      ],
+      [
+        "vi",
+        "de"
+      ],
+      [
+        "af",
+        "ter"
+      ],
+      [
+        "co",
+        "me"
+      ],
+      [
+        "co",
+        "mm"
+      ],
+      [
+        "ig",
+        "ence"
+      ],
+      [
+        "ion",
+        "als"
+      ],
+      [
+        "ill",
+        "ness"
+      ],
+      [
+        "un",
+        "well"
+      ],
+      [
+        "un",
+        "icate"
+      ],
+      [
+        "ess",
+        "ionals"
+      ],
+      [
+        "hospit",
+        "al"
+      ],
+      [
+        "review",
+        "ed"
+      ],
+      [
+        "et",
+        "y"
+      ],
+      [
+        "fe",
+        "el"
+      ],
+      [
+        "fe",
+        "ver"
+      ],
+      [
+        "med",
+        "ication"
+      ],
+      [
+        "mak",
+        "e"
+      ],
+      [
+        "mak",
+        "ing"
+      ],
+      [
+        "po",
+        "lici"
+      ],
+      [
+        "po",
+        "intments"
+      ],
+      [
+        "plan",
+        "s"
+      ],
+      [
+        "you",
+        "r"
+      ],
+      [
+        "infor",
+        "med"
+      ],
+      [
+        "infor",
+        "mation"
+      ],
+      [
+        "dep",
+        "ends"
+      ],
+      [
+        "dep",
+        "artments"
+      ],
+      [
+        "pro",
+        "ve"
+      ],
+      [
+        "pro",
+        "vide"
+      ],
+      [
+        "adm",
+        "inist"
+      ],
+      [
+        "adm",
+        "itted"
+      ],
+      [
+        "schedu",
+        "le"
+      ],
+      [
+        "schedu",
+        "led"
+      ],
+      [
+        "decision",
+        "s"
+      ],
+      [
+        "diagn",
+        "ost"
+      ],
+      [
+        "diagn",
+        "osis"
+      ],
+      [
+        "Ar",
+        "tifici"
+      ],
+      [
+        "Dig",
+        "ital"
+      ],
+      [
+        "Ele",
+        "ctron"
+      ],
+      [
+        "Med",
+        "ical"
+      ],
+      [
+        "Th",
+        "ank"
+      ],
+      [
+        "Tes",
+        "t"
+      ],
+      [
+        "ac",
+        "ros"
+      ],
+      [
+        "ap",
+        "pointments"
+      ],
+      [
+        "as",
+        "sesses"
+      ],
+      [
+        "con",
+        "tin"
+      ],
+      [
+        "creat",
+        "ed"
+      ],
+      [
+        "cle",
+        "arly"
+      ],
+      [
+        "dat",
+        "a"
+      ],
+      [
+        "em",
+        "ergency"
+      ],
+      [
+        "gu",
+        "ide"
+      ],
+      [
+        "hig",
+        "h"
+      ],
+      [
+        "im",
+        "prove"
+      ],
+      [
+        "lon",
+        "g"
+      ],
+      [
+        "mu",
+        "st"
+      ],
+      [
+        "mon",
+        "itor"
+      ],
+      [
+        "qu",
+        "ality"
+      ],
+      [
+        "saf",
+        "ety"
+      ],
+      [
+        "secu",
+        "rely"
+      ],
+      [
+        "tak",
+        "e"
+      ],
+      [
+        "wor",
+        "k"
+      ],
+      [
+        "wit",
+        "h"
+      ],
+      [
+        "wel",
+        "come"
+      ],
+      [
+        "reco",
+        "ver"
+      ],
+      [
+        "recor",
+        "ds"
+      ],
+      [
+        "refer",
+        "rals"
+      ],
+      [
+        "orde",
+        "rs"
+      ],
+      [
+        "head",
+        "ache"
+      ],
+      [
+        "intell",
+        "igence"
+      ],
+      [
+        "deliv",
+        "er"
+      ],
+      [
+        "staf",
+        "f"
+      ],
+      [
+        "toge",
+        "ther"
+      ],
+      [
+        "supp",
+        "ort"
+      ],
+      [
+        "arriv",
+        "es"
+      ],
+      [
+        "disch",
+        "arge"
+      ],
+      [
+        "dizz",
+        "iness"
+      ],
+      [
+        "priv",
+        "acy"
+      ],
+      [
+        "prof",
+        "essionals"
+      ],
+      [
+        "throu",
+        "gh"
+      ],
+      [
+        "comm",
+        "unicate"
+      ],
+      [
+        "medication",
+        "s"
+      ],
+      [
+        "polici",
+        "es"
+      ],
+      [
+        "administ",
+        "er"
+      ],
+      [
+        "diagnost",
+        "ic"
+      ],
+      [
+        "Artifici",
+        "al"
+      ],
+      [
+        "Electron",
+        "ic"
+      ],
+      [
+        "acros",
+        "s"
+      ],
+      [
+        "contin",
+        "uity"
+      ],
+      [
+        "guide",
+        "lines"
+      ]
+    ]
+  }
+}

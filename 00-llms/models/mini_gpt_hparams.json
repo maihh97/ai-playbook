@@ -1,0 +1,13 @@
+{
+  "batch_size": 32,
+  "block_size": 64,
+  "max_iters": 1200,
+  "learning_rate": 0.0003,
+  "eval_interval": 100,
+  "eval_iters": 50,
+  "n_embd": 96,
+  "n_head": 4,
+  "n_layer": 3,
+  "dropout": 0.15,
+  "device": "cpu"
+}
